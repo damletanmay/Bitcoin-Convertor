@@ -13,7 +13,7 @@ For the time being this app is not hosted on app store or play store, its only a
 It is a very simple flutter app with a very simple UI.
 
 
-This app uses [Coin API](https://www.coinapi.io/) for displaying the Bitcoin Value for Different Currencies.
+This app uses [Coin API](https://www.coinapi.io/) for Converting the Bitcoin Value for Different Currencies.
 
 It has a bit different UI for distinct Platforms styled according the OS of the system.
 
@@ -44,6 +44,12 @@ Once the app is built you can disconnect the USB & use it in your mobile phone.
 
 All the coding was done in flutter which uses dart programming language.
 
+Comments are added wherever necessary so that the code can be easily understood.
+
+## Output ScreenShots
+
+![image1](https://github.com/damletanmay/Bitcoin-Convertor/blob/master/output/1.jpg)
+![image2](https://github.com/damletanmay/Bitcoin-Convertor/blob/master/output/2.jpg)
 
 ## What I Learned
 
