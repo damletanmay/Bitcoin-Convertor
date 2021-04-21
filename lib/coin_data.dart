@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-
+// Currency List
 const List<String> currenciesList = [
   'AUD',
   'BRL',
@@ -25,6 +25,7 @@ const List<String> currenciesList = [
   'ZAR'
 ];
 
+// Crypto Currency List
 const List<String> cryptoList = [
   'BTC',
   'ETH',
@@ -32,9 +33,10 @@ const List<String> cryptoList = [
 ];
 
 
-
+//Api Key
 const apiKey= "6B3EB4AB-8173-4899-8A6A-E7170DF026B5";
 
+// making a class to get data from the API
 class CoinData {
 
   Future<dynamic> getData( {String cryptoCoinCurrency, String selectedOption}) async{

@@ -19,10 +19,12 @@ class _PriceScreenState extends State<PriceScreen> {
 
   @override
   void initState() {
+    // this function will be called before rendering the whole page.
+    // so we can update ui to display things even before the app is opened.
     updateUI();
     super.initState();
   }
-
+// this will update ui
   void updateUI() async {
     CoinData coinData = CoinData();
     isWaiting = true;
@@ -41,6 +43,7 @@ class _PriceScreenState extends State<PriceScreen> {
     print("UI Updated");
   }
 
+  // custom widget for android
   Widget androidDD() {
     List<DropdownMenuItem> myItems = [];
     for (String i in currenciesList) {
@@ -61,7 +64,7 @@ class _PriceScreenState extends State<PriceScreen> {
       },
     );
   }
-
+// custom widget for ios
   Widget iosPicker() {
     List<Widget> myItems = [];
     for (String i in currenciesList) {
@@ -82,7 +85,7 @@ class _PriceScreenState extends State<PriceScreen> {
     );
   }
 
-
+// custom widget which renders the screen where values are displayed.
   List<Widget> giveCrpyto() {
     List<Widget> my_crypto = [];
     for (int i = 0; i < cryptoList.length; i++) {
@@ -112,6 +115,7 @@ class _PriceScreenState extends State<PriceScreen> {
     return my_crypto;
   }
 
+  // build method which combines all the widgets.
   @override
   Widget build(BuildContext context) {
     return Scaffold(
