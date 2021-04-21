@@ -67,6 +67,8 @@ cupertino_icons - module
 
 Coin API - API
 
+http - module
+
 ```
 
 
