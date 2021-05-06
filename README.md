@@ -48,8 +48,8 @@ Comments are added wherever necessary so that the code can be easily understood.
 
 ## Output ScreenShots
 
-<img src = "https://github.com/damletanmay/Bitcoin-Convertor/blob/master/output/1.jpg" height=100 width=80>
-<img src = "https://github.com/damletanmay/Bitcoin-Convertor/blob/master/output/2.jpg" height=100 width=80 >
+<img src = "https://github.com/damletanmay/Bitcoin-Convertor/blob/master/output/1.jpg" height=1000 width=800>
+<img src = "https://github.com/damletanmay/Bitcoin-Convertor/blob/master/output/2.jpg" height=1000 width=800 >
 
 ## What I Learned
 
